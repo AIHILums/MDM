@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+textarea {
+  @apply border;
+  @apply border-solid;
+  @apply border-gray-300;
+  /* @apply rounded-md; */
+  /* @apply px-4; */
+  /* @apply py-20; */
+}
+
+.border-hairline {
+  @apply border border-black border-opacity-10;
+}
+
+.button {
+  @apply bg-black text-white rounded-r-md px-5 py-3 inline-block ;
+}
+
+.image-wrapper {
+  margin-top: 1rem;
+  width: 100%;
+  /* aspect-ratio: 1 / 1; */
+  position: relative;
+  border-color: black;
+  background-color: aliceblue;
+}
+
+#output {
+  white-space: pre-wrap; /* Preserve line breaks */
+  word-wrap: break-word; /* Break long words */
+}
+
+.image-wrapper h2 {
+  font-size: large;
+  font-weight: bold;
+}
